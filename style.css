@@ -1,0 +1,147 @@
+html{
+    background-image: url(background.png);
+}
+body{
+  border-color: black;
+  border: solid 2px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  background-color: white;
+  display: block;
+
+}
+
+.body{
+  font-weight:normal;
+  font:Georgia;
+  border-color: white;
+}
+h1{
+    border-color: black;
+    border: solid black 3px;
+    background-color: red;
+    color:white;
+    font-size: 30px;
+    text-align: left;
+    padding: 20px;
+    font-weight: lighter;
+    margin: 20px;
+    font:helvetica;
+    font-weight: lighter;
+    max-height: 59px
+  }
+  img {
+    border: solid black 3px;
+    padding: 10px;
+    background-color: white;
+    margin: 20px;
+    float: left;
+  }
+
+
+ul {
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+  width: 200px;
+  background-color: white;
+  border:solid black 0.5px;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: blue;
+  padding: 8px 16px; /*spacing between the navagation buttons*/
+  text-decoration:underline;
+  font: Georgia;
+  float: left;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: red;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+p{
+  font:helvetica;
+  margin: 15px;
+  display:block;
+  column-count: 1;
+  column-width: 50%;
+
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+.footer {
+  background-color: white;
+  color: black;
+  text-align: left;
+  border:solid red 2px;
+  font:Verdana;
+  font-style: italic;
+  margin: 20px;
+
+}
+
+#helvetica:hover{
+  color:red;
+  text-decoration: none;
+
+}
+#helvetica{
+  color: red;
+  text-decoration: none;
+}
+#helvetica.active{
+  color:red;
+}
+
+#portland:hover{
+  color:red;
+  text-decoration: none;
+
+}
+#portland{
+  color: red;
+  text-decoration: none;
+}
+#mcsweeney.active{
+  color:red;
+}
+
+#mcsweeney:hover{
+  color:red;
+  text-decoration: none;
+
+}
+#mcsweeney{
+  color: red;
+  text-decoration: none;
+}
+
+
+#DIY:hover{
+  color:red;
+  text-decoration: none;
+
+}
+#DIY{
+  color: red;
+  text-decoration: none;
+}
+#DIY.active{
+  color:red;
+}
